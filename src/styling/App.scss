@@ -1,0 +1,17 @@
+//defining our mixins
+@mixin flex($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+//importing our global styling
+@import './abstract/variables';
+@import './base/global';
+
+//defining the styles for our App.js
+.App{
+    min-height: 100vh;
+    width: 100vw;
+}

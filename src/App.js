@@ -1,8 +1,22 @@
+import './styling/App.scss';
+//import our components
+import Navbar from './components/Navbar';
+//import everything react router related
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Test</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route to='/' exact />
+          <Route to='/locations' />
+          <Route to='/about' />
+          <Route to='/contact' />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
