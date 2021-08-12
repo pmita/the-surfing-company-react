@@ -1,0 +1,36 @@
+.button{
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: $transition;
+}
+
+.action-button{
+    background: $white;
+    border: 2px solid $highlight;
+    a{
+        color: $highlight;
+    }
+    &:hover{
+        background: $highlight;
+        a{
+            color: $white;
+        }
+    }
+}
+
+.sec-button{
+    background: $highlight;
+    border: 2px solid $highlight;
+    a{
+        color: $white;
+    }
+    &:hover{
+        background: $white;
+        a{
+            color: $highlight;
+        }
+    }
+}
+

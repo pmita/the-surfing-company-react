@@ -3,6 +3,7 @@ import React from 'react';
 import bannerImg from '../assets/images/banner.jpg';
 //importing our components
 import Headline from './Headline';
+import Button from './Button';
 
 const Banner = () => {
     return(
@@ -15,6 +16,18 @@ const Banner = () => {
                 header='The Surfing Company'
                 subheader='The srufing info provide made by surfers'
             />
+            <div className="buttons-section">
+                <Button 
+                    buttonText = 'Learn More'
+                    buttonLink='/locations'
+                    outline={false}
+                />
+                <Button 
+                    buttonText = 'About Us'
+                    buttonLink='/about'
+                    outline={true}
+                />
+            </div>
         </div>
     );
 }

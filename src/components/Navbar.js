@@ -14,18 +14,18 @@ const Navbar = () => {
             <ul className={isNavOpen ? 'nav-links active' : 'nav-links'}>
                 <li>
                     <Link 
-                        to='/locations'
-                        onClick={toggleNavbar}
-                    >
-                        Locations
-                    </Link>
-                </li>
-                <li>
-                    <Link 
                         to='/about'
                         onClick={toggleNavbar}
                     >
                         About
+                    </Link>
+                </li>
+                <li>
+                    <Link 
+                        to='/locations'
+                        onClick={toggleNavbar}
+                    >
+                        Locations
                     </Link>
                 </li>
                 <li>
