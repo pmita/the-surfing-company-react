@@ -1,6 +1,6 @@
 import React from 'react';
 //importing our assets
-import bannerImg from '../assets/images/banner.jpg';
+import bannerImg from '../assets/images/aboutUs.jpg';
 //importing our components
 import Headline from './Headline';
 import Button from './Button';
