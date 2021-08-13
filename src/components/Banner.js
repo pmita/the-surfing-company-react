@@ -14,7 +14,8 @@ const Banner = () => {
             />
             <Headline 
                 header='The Surfing Company'
-                subheader='The srufing info provide made by surfers'
+                subheader='Let us help you find the best surfing
+                locations so you can focus on surfing only!'
             />
             <div className="buttons-section">
                 <Button 
